@@ -1,0 +1,12 @@
+server:
+    port: 8081
+spring:
+    application:
+        name: hello-world-service
+    boot:
+        admin:
+            client:
+                url: http://localhost:8888
+    cloud:
+        config:
+            uri: http://localhost:8000
